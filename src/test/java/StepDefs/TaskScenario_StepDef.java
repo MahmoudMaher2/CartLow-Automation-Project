@@ -77,4 +77,11 @@ public class TaskScenario_StepDef {
         cartPage_object.confirmRemove();
         cartPage_object.clickCheckout();
     }
+
+    @Then("Delete Apple Watch from cart to Retest Again")
+    public void deleteAppleWatchFromCartToRetestAgain() {
+        cartPage_object.navigateWebsite();
+        cartPage_object.clickRemoveFor("Apple Watch Series 6 (GPS + Cellular, 44mm) - Silver Aluminium Case with White Sport Band");
+        cartPage_object.confirmRemove();
+    }
 }

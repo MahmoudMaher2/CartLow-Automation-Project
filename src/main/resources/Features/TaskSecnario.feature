@@ -8,43 +8,11 @@ Feature: Shopping Flow on Cartlow Website.
     And   User Opens Laptops Page and Select item Dell Latitude 7490 Then add to cart
     And   User Opens the SmartWatches page and adds 2 Apple Watch Series 6 items to the cart
     And   User Opens cart and Remove laptop then Proceed to checkout
+    Then  Delete Apple Watch from cart to Retest Again
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  Scenario: User change country
-    Given User Navigate To Cartlow Website
-    When  User Change Country From "INTL" to "UAE"
-    When  User Change Country From "UAE" to "KSA"
-    When  User Change Country From "KSA" to "INTL"
 
   Scenario: test
     Given User Navigate To Cartlow Website
     And   User Opens Laptops Page and Select item Dell Latitude 7490 Then add to cart
-    And   User Opens the SmartWatches page and adds 2 Apple Watch Series 6 items to the cart
-    And   User Opens cart and Remove laptop then Proceed to checkout
-
-
-
-
-
-
-
-
-
-
-
+#    And   User Opens the SmartWatches page and adds 2 Apple Watch Series 6 items to the cart
+#    And   User Opens cart and Remove laptop then Proceed to checkout

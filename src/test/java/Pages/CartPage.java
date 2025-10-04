@@ -48,4 +48,9 @@ public class CartPage {
         driver.findElement(By.xpath("//a[normalize-space()='Checkout']")).click();
     }
 
+    // Navigate Cart Page
+    public void navigateWebsite (){
+        driver.navigate().to("https://cartlow.com/uae/en/checkout/cart");
+            }
+
 }

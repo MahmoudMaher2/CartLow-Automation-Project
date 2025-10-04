@@ -32,7 +32,7 @@ public class LabtopsPage {
             driver.findElement(By.xpath("//input[@placeholder='Search products here']")).sendKeys(productName + Keys.ENTER);
         }
 
-        // Select the item: Dell Latitude 7490 Intel Core i7-8650U 14" FHD Display, 16GB RAM, 512GB SSD, Windows 10 Pro
+    // Select the item: Dell Latitude 7490 Intel Core i7-8650U 14" FHD Display, 16GB RAM, 512GB SSD, Windows 10 Pro
         public void selectDellLaptop7490() {
             By dell = By.xpath("//a[contains(@href,'dell-latitude-7490-intel-core-i7-8650u-14-fhd-display-16gb-ram-512gb-ssd-windows-10-pro')]");
             try {
