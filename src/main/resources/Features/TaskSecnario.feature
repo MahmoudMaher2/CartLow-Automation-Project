@@ -10,9 +10,3 @@ Feature: Shopping Flow on Cartlow Website.
     And   User Opens cart and Remove laptop then Proceed to checkout
     Then  Delete Apple Watch from cart to Retest Again
 
-
-  Scenario: test
-    Given User Navigate To Cartlow Website
-    And   User Opens Laptops Page and Select item Dell Latitude 7490 Then add to cart
-#    And   User Opens the SmartWatches page and adds 2 Apple Watch Series 6 items to the cart
-#    And   User Opens cart and Remove laptop then Proceed to checkout
