@@ -70,5 +70,6 @@ The following scenarios are automated in this project:
 
 ## 📬 Contact Me  
 
-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/mahmoud-maher74/)  
-- [![Gmail](https://img.shields.io/badge/Gmail-Contact-red?style=flat&logo=gmail)](mailto:mahmoudmaher2033@gmail.com)  
+- 🔗 LinkedIn: [Mahmoud Maher](https://www.linkedin.com/in/mahmoud-maher74/)  
+- 📧 Email: **mahmoudmaher2033@gmail.com**  
+
